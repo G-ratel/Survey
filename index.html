@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heade">
+            <h2>Customer Preference Survey</h2>
+        </div>
+        <form action="#">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Enter first name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Enter last name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="email" placeholder="Enter email..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country" placeholder="Enter first name..">
+                        <option value="nigeria">Nigeria</option>
+                        <option value="ghana">Ghana</option>
+                        <option value="s/africa">South Africa</option>
+                        <option value="zimbabwe">Zimbabwe</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="senegal">Senegal</option>
+                    </select>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-25">
+                    <p>Preferred method of contact:</p>
+                </div>
+                <div class="col-75">
+                    <label>
+                        <input type="checkbox" name="user-used" value="Phone"/>Phone
+                    </label>
+                    <label>
+                        <input type="checkbox" name="user-used" value="Email"/>Email
+                    </label>
+                    <label>
+                        <input type="checkbox" name="user-used" value="message"/>Text message
+                    </label>
+                    <label>
+                        <input type="checkbox" name="user-used" value="other"/>Others (please specify)
+                    </label>
+                    <label>
+                        <input type="text" id="contact" name="contact" placeholder="Contact via..">
+                    </label>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-25">
+                    <p>What is your favorite product?</p>
+                </div>
+                <div class="col-75">
+                    <label>
+                        <input type="radio" name="user-recommend" value="smartphone"/>Smartphone
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="iPhone"/>iPhone
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="tablet"/>Tablet
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="Laptop"/>Laptop 
+                    </label>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-25">
+                    <p>How satisfied are you with the product?</p>
+                </div>
+                <div class="col-75">
+                    <label>
+                        <input type="radio" name="user-recommend" value="very"/>Very satisfied
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="satisfied"/>Satisfied
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="somewhat"/>Somewhat satisfied
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="notsatisfied"/>Not satisfied 
+                    </label>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-25">
+                    <p>Would you recommend product to a friend?</p>
+                </div>
+                <div class="col-75">
+                    <label>
+                        <input type="radio" name="user-recommend" value="yes"/>Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="no"/>No
+                    </label>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-25">
+                    <p>Would you recommend company name to a friend?</p>
+                </div>
+                <div class="col-75">
+                    <label>
+                        <input type="radio" name="user-recommend" value="yes"/>Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="user-recommend" value="no"/>No
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="suggestions">Suggestions or Criticisms?</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="suggestions" name="suggestions" placeholder="Write something.." style="height: 200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
